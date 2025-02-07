@@ -2,7 +2,8 @@
 
 
 int main() {
-    n=scanf();
+    int n;
+    scanf("",&n);
     printf("%f",n);
     return 0;
 }
