@@ -48,9 +48,7 @@ int main() {
         printf("Invalid");
         break;
     }
-        default:
-        printf("Invalid");
-        break;
-    }
+        
+    
     return 0;
 }
