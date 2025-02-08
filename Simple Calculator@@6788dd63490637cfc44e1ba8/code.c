@@ -5,21 +5,21 @@ char* welcome() {
 }
 
 int main() {
-    int a,b;
+    double a,b;
     char n;
-    scanf("%d %d %c",&a,&b,&n);
+    scanf("%f %f %c",&a,&b,&n);
     switch(n){
         case '+':
-        printf("%d",a+b);
+        printf("%f",a+b);
         break;
         case '-':
-        printf("%d",a-b);
+        printf("%f",a-b);
         break;
         case '*':
-        printf("%d",a*b);
+        printf("%f",a*b);
         break;
         case '/':
-        printf("%d",a/b);
+        printf("%f",a/b);
         break;
         default :
         printf("error");
