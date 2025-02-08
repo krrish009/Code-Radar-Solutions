@@ -5,7 +5,7 @@ int main() {
     scanf("%d",&n);
     for (int i=2;i<=n;i++){
         if(n%i==0){
-            isnotprime=1;
+            int isnotprime=1;
             break;
         }
     }
