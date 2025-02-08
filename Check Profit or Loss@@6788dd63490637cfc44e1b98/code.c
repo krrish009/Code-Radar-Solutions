@@ -8,7 +8,7 @@ int main() {
     if(PL>0){
         printf("Profit");
     }
-    else if(Pl<0){
+    else {
         printf("Loss");
     }
     // else{
