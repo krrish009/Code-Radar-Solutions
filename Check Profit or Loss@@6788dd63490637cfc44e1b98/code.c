@@ -8,8 +8,11 @@ int main() {
     if(PL>0){
         printf("Profit");
     }
-    else{
+    else if(Pl<0){
         printf("Loss");
+    }
+    else{
+        printf("No Profit No Loss")
     }
     return 0;
 }
