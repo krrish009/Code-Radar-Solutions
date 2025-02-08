@@ -5,7 +5,7 @@ char* welcome() {
 }
 
 int main() {
-    double a,b;
+    float a,b;
     char n;
     scanf("%f %f %c",&a,&b,&n);
     switch(n){
