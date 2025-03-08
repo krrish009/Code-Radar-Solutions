@@ -11,7 +11,7 @@ int main() {
     scanf("%d", &n);
 
     unsigned int result = setNthBit(num, n);
-    printf("%u\n", n, result);
+    printf("%u\n", result);
 
     return 0;
 }
