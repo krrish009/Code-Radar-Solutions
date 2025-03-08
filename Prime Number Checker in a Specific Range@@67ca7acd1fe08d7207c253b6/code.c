@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int isPrime(int num){
+int PrintPrimesInRange(int num){
     int prime=0;
     for(int i=a; i<=b; i++){
         for(int j=2;j<=num/2;j++){
