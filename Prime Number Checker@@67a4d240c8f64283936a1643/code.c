@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int prime(int n){
+int isPrime(int n){
     for(int i=1;i<=(n/2);i++){
         if(n%i==0){
             return 0;
