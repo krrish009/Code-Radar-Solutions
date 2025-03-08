@@ -11,7 +11,7 @@ int main() {
     scanf("%u", &num);
 
     unsigned int result = getLowestSetBit(num);
-    printf(" %u\n", result);
+    printf("%u\n", result);
 
     return 0;
 }
