@@ -1,18 +1,18 @@
 #include <stdio.h>
 
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
-
 int main() {
-    int a;
-    scanf("%d",&a);
-    if(a & 32){
-        printf("Set");
+    int num;
+    
+    // Input from user
+    printf("Enter an integer: ");
+    scanf("%d", &num);
+    
+    // Check MSB using bitwise AND
+    if (num & (1 << 31)) {
+        printf("Set\n");
+    } else {
+        printf("Not Set\n");
     }
-
-    else{
-        printf("Not Set");
-    }
+    
     return 0;
 }
