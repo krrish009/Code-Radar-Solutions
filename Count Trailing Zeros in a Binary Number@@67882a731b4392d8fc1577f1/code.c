@@ -17,7 +17,7 @@ int main() {
     scanf("%u", &num);
 
     int trailingZeros = countTrailingZeros(num);
-    printf("\n", trailingZeros);
+    printf("%d\n", trailingZeros);
 
     return 0;
 }
