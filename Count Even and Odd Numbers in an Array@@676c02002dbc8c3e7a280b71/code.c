@@ -2,7 +2,7 @@
 
 int main(){
     int n;
-    int arr[];
+    int arr[n];
     int odd=0;
     int even=0;
     scanf("%d",&n);
