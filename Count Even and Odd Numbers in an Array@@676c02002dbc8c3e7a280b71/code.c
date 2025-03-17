@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 int main(){
-    int n
+    int n;
     int arr[];
     int odd=0;
     int even=0;
