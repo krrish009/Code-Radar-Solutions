@@ -16,7 +16,7 @@ void printPrimesInRange(int a, int b) {
 
     for (int i = a; i <= b; i++) {
         if (isPrime(i)) {
-            printf("%d", i);
+            printf("%d ", i);
             found = 1; // Mark that we found a prime
         }
     }
