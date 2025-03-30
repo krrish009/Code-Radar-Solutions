@@ -35,11 +35,14 @@ int main(){
     // Find the first element smaller than `largest`
     for (int i = 1; i < n; i++) {
         if (arr[i] < largest) {
-            return arr[i];  // Found second largest
+            printf("%d",arr[i]);  // Found second largest
+        }
+        else{
+            printf("-1");
         }
     }
 
-    return -1;
+    
     
     return 0;
 }
