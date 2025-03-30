@@ -32,4 +32,6 @@ int main(){
     printArray(arr,n);
     bubblesort(arr,n);
     printArray(arr,n);
+    
+    return 0;
 }
