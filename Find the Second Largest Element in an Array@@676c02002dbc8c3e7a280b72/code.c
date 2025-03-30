@@ -25,22 +25,6 @@ int enterArray(int arr[],int n){
     }
 }
 
-int findSecondLargest(int arr[], int n) {
-    if (n < 2) return -1;  // If less than 2 elements, return -1
-
-    bubblesort(arr, n);  // Sort in descending order
-
-    int largest = arr[0];  // First element is the largest after sorting
-
-    // Find the first element smaller than `largest`
-    for (int i = 1; i < n; i++) {
-        if (arr[i] < largest) {
-            return arr[i];  // Found second largest
-        }
-    }
-
-    return -1;  // If no second largest found
-}
 int main(){
     int n;
     scanf("%d",&n);
