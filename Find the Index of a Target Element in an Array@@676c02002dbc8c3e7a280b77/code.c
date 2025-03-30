@@ -13,10 +13,7 @@ int main() {
         if(arr[i]==key){
             printf("%d",i);
             }
-        else{
-            printf("-1");
-            break;
-        }
+       
     }
 
 
