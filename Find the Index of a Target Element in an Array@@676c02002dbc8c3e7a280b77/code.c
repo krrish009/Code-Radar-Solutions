@@ -12,6 +12,7 @@ int main() {
      for (int i = 0; i <= n; i++) {  
         if(arr[i]==key){
             printf("%d",i);
+            break;
             }
         else if(i==n){
             printf("-1");
