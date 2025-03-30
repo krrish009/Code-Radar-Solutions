@@ -30,7 +30,16 @@ int main(){
     int arr[n];
     enterArray(arr,n);
     bubblesort(arr,n);
-    printf("%d",arr[1]);
+    int largest = arr[0];  // First element is the largest after sorting
+
+    // Find the first element smaller than `largest`
+    for (int i = 1; i < n; i++) {
+        if (arr[i] < largest) {
+            return arr[i];  // Found second largest
+        }
+    }
+
+    return -1;
     
     return 0;
 }
