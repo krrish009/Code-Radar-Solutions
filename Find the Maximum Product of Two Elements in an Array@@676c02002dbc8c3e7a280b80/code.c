@@ -25,6 +25,10 @@ int main() {
     int n;
     scanf("%d", &n);
     int arr[n];
+    if (n < 2) {
+        printf("-1\n");  // If less than 2 elements, multiplication is not possible
+        return 0;
+    }
     enterArray(arr, n);
     bubblesort(arr,n);
     int mul=arr[0]*arr[1];
