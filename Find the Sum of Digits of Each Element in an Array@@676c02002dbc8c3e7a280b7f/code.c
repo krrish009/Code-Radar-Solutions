@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int sum(int n){
-    int last;
+    int last=0;
     while(n>0){
         last+=n%10;
         n/=10;
