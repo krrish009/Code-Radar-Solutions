@@ -30,7 +30,14 @@ int main() {
         printf("-1");
     }
     bubblesort(arr,n);
-    printf("%d %d",arr[1],arr[0]);
+    diff1=arr[1]-arr[0];
+    diff2=arr[n-1]-arr[n];
+    if(diff1<diff2){
+        print("%d %d",arr[1],arr[0]);
+    }
+    else{
+         print("%d %d",arr[n-1],arr[n]);
+    }
 
     return 0;
 }
