@@ -11,7 +11,7 @@ int main() {
     scanf("%d",&key);
      for (int i = 0; i < n; i++) {  
         if(arr[i]==key){
-            printf("%d",i)
+            printf("%d",i);
         }
     }
 
