@@ -53,7 +53,7 @@ int main() {
 
     // Find the pair with the minimum difference
     for (i = 0; i < n - 1; i++) {
-        int diff = abs_val(arr[i+1] - arr[i]);
+        int diff = (arr[i+1] - arr[i]);
         if (diff < minDiff) {
             minDiff = diff;
             num1 = arr[i];
