@@ -14,7 +14,7 @@ int main() {
             printf("%d",i);
             break;
             }
-        else if(i==n){
+        else if(i==n-1){
             printf("-1");
         }
     
