@@ -40,6 +40,7 @@ int main(){
         }
         else{
             printf("-1");
+            break;
         }
     }
 
