@@ -12,9 +12,10 @@ int main() {
      for (int i = 0; i < n; i++) {  
         if(arr[i]==key){
             printf("%d",i);
-        }
+            }
         else{
             printf("-1");
+            break;
         }
     }
 
