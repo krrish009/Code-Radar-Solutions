@@ -33,10 +33,10 @@ int main() {
     int diff1=arr[1]-arr[0];
     int diff2=arr[n-1]-arr[n];
     if(diff1<diff2){
-        print("%d %d",arr[1],arr[0]);
+        printf("%d %d",arr[1],arr[0]);
     }
     else{
-         print("%d %d",arr[n-1],arr[n]);
+         printf("%d %d",arr[n-1],arr[n]);
     }
 
     return 0;
