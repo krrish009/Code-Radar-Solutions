@@ -29,9 +29,8 @@ int main(){
     scanf("%d",&n);
     int arr[n];
     enterArray(arr,n);
-    printArray(arr,n);
     bubblesort(arr,n);
-    printArray(arr,n);
+    printf("%d",arr[1]);
     
     return 0;
 }
