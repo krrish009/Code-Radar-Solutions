@@ -9,7 +9,7 @@ int main() {
     }
     int key;
     scanf("%d",&key);
-     for (int i = 0; i < n; i++) {  
+     for (int i = 0; i <= n; i++) {  
         if(arr[i]==key){
             printf("%d",i);
             }
