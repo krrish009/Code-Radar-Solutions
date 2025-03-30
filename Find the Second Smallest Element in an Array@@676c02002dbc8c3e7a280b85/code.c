@@ -27,7 +27,7 @@ int main() {
     int arr[n];
     enterArray(arr, n);
     if(n<2){
-        printf("0");
+        printf("-1");
     }
     bubblesort(arr,n);
     printf("%d",arr[n-2]);
