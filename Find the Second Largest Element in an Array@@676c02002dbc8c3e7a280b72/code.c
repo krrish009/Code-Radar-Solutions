@@ -34,7 +34,7 @@ int main(){
 
     // Find the first element smaller than `largest`
     for (int i = 1; i < n; i++) {
-        if(n>2){
+        if(n<2){
             printf("-1");
         }
         if (arr[i] < largest) {
