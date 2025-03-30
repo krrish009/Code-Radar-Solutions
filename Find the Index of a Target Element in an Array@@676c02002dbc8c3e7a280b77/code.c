@@ -13,7 +13,10 @@ int main() {
         if(arr[i]==key){
             printf("%d",i);
             }
-       
+        else if(i==n){
+            printf(-1);
+        }
+    
     }
 
 
