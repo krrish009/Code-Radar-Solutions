@@ -46,10 +46,24 @@ int main(){
     scanf("%d",&n);
     int arr[n];
     enterArray(arr,n);
+    if(n<2){
+            printf("-1");
+        }
     bubblesort(arr,n);
-   
-    
-    printf("%d\n", findSecondLargest(arr, n));  // Print result
+    int largest = arr[0];  // First element is the largest after sorting
+
+    // Find the first element smaller than `largest`
+    for (int i = 1; i < n; i++) {
+        if (arr[i] < largest) {
+            printf("%d",arr[i]);
+            break;  // Found second largest
+        }
+        else{
+            printf("-1");
+            break;
+        }
+    }
+    // printf("%d\n", findSecondLargest(arr, n));  // Print result
 
     
     
