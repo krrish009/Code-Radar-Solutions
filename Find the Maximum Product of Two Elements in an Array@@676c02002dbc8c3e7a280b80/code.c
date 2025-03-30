@@ -31,8 +31,13 @@ int main() {
     }
     enterArray(arr, n);
     bubblesort(arr,n);
-    int mul=arr[0]*arr[1];
-    printf("%d",mul);
-
+    int mul1=arr[0]*arr[1];
+    int mul2=arr[n-1]*arr[n-2];2
+    if(mul1>mul2){
+        printf("%d",mul1);
+    }
+    else{
+        printf("%d",mul2);
+    }
     return 0;
 }
