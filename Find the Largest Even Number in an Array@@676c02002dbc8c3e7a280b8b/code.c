@@ -20,8 +20,11 @@ int main() {
             }
         }
     }
-
-    printf("%d\n", maxEven);  // Print result
+    if(found)
+    printf("%d\n", maxEven);
+    else{
+        printf("-1");
+    }  // Print result
     return 0;
 }
 
