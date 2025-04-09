@@ -2,11 +2,11 @@
 
 int isPalindromic(int arr[], int n) {
     for(int i=0;i<n;i++){
-        if(arr[i]==arr[n-i-1]){
-            return 1;
+        if(arr[i]!=arr[n-i-1]){
+            return 0;
         }
     }
-    return 0;
+    return 1;
 }
 
 int main() {
@@ -18,9 +18,7 @@ int main() {
     }
     if (isPalindromic(arr, n)) {
         printf("YES\n");
-    } else if(arr[]={1,2,3,4,3,2,2}){
-        printf("NO")
-    }
+    } 
      else {
         printf("NO\n");
     }
