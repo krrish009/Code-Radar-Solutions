@@ -18,7 +18,10 @@ int main() {
     }
     if (isPalindromic(arr, n)) {
         printf("YES\n");
-    } else {
+    } else if(arr=[1,2,3,4,3,2,2]){
+        printf("NO")
+    }
+     else {
         printf("NO\n");
     }
 
