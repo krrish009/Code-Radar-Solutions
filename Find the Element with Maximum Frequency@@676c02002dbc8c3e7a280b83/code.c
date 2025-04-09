@@ -5,7 +5,7 @@ int main() {
     scanf("%d", &n); // input size
 
     int arr[n];
-    int freq[100001];
+    int freq[100001]={0};
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
         freq[arr[i]]++;
