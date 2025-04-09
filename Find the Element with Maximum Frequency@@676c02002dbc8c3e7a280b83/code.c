@@ -11,7 +11,7 @@ int main() {
         freq[arr[i]]++;
     }
     int maxfreq=0,result=100001;
-    for(int i=0;i<n;i++){
+    for(int i=0;i<100001;i++){
         if(maxfreq<freq[i]){
             maxfreq=freq[i];
             result=i;
